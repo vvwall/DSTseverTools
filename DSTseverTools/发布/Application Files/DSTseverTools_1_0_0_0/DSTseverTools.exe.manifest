@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DSTseverTools.exe" version="1.0.0.0" publicKeyToken="40c302a08346b34e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DSTseverTools" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DSTseverTools.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DSTseverTools.exe" size="586752">
+      <assemblyIdentity name="DSTseverTools" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LNBxutMJwFz8v3fbcHrZcMKrp5klB6zcC/+Mh4qE/0A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="521216">
+      <assemblyIdentity name="Newtonsoft.Json" version="8.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pxPak1priJ2uuVQcJHuP5s1NzcMXy4Zijb95yNL0d48=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DSTseverTools.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fzxBSr45tumrN8SNWWL0IeqRlxoh8+san/F4n6/GZJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=J\JearyVon" issuerKeyHash="5fff9d1bf20ba6e077ecc0f4974115d29b8e5d0b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7H0nZY5krqYQQpjAkxeEnwOKZstE7RTdt5g+2x6bOsU=</DigestValue></Reference></SignedInfo><SignatureValue>hl/hucQFg/zQTeo7JkM27CL/phPDX5DBYp8Hcl6yKjp8/zNUn/Xtuk2PhkevnQNrlxUYuIklrle38KBWeGeGrug6FvLMTa8Ij1PiYM6SwhI898MZTfcv8mrPd6j9HDkF1A3VQhaGCLZ6JFCBWrscsliDqq388sr6M9FC+d77lM8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uA7JruyTBA/AdaKPR2bc2LZYAm3hGWuT8SQO2CK98cQqvQti1aO/kCr8Lu1tKNUNTrLRTy6XkJx+E3rEprtEqgEd/3J7JDoghfz31DSQEUqIT9zE9E+4bhFc+Vn6fo59KIeAD5+aHYjsWbzTVbY8zKyg7YqmJ2ZCy32qdz6+5Ek=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c53a9b1edb3e98b7dd14ed44cb668a039f841793c0984210a6ae648e65277dec" Description="" Url=""><as:assemblyIdentity name="DSTseverTools.exe" version="1.0.0.0" publicKeyToken="40c302a08346b34e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=J\JearyVon</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>IIVNM4tj7wiuFKb/VkGVEbKe6KkC/3ws5JWF3nkf37w=</DigestValue></Reference></SignedInfo><SignatureValue>h4GrpWlIvuUuxWL4fkLAuF7qyFevrsupVhJ3GZh4FS6EGOyuT7wrNordny9P/sgLSZ6GC5xizYHO76zx+h+dNIaO/nYxgloRJGLsGaRknETHx0jD3i5RoIluuiwxjGpnK7YFKMsPOSitni1TWXPZBkzJ13kwaZdm9iN18LogBhs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uA7JruyTBA/AdaKPR2bc2LZYAm3hGWuT8SQO2CK98cQqvQti1aO/kCr8Lu1tKNUNTrLRTy6XkJx+E3rEprtEqgEd/3J7JDoghfz31DSQEUqIT9zE9E+4bhFc+Vn6fo59KIeAD5+aHYjsWbzTVbY8zKyg7YqmJ2ZCy32qdz6+5Ek=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQMmccaF34c5FE6DNE0f9JkjANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQASgBcAEoAZQBhAHIAeQBWAG8AbjAeFw0xNjAxMTkxMjExMzlaFw0xNzAxMTgxODExMzlaMB8xHTAbBgNVBAMeFABKAFwASgBlAGEAcgB5AFYAbwBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4Dsmu7JMED8B1oo9HZtzYtlgCbeEZa5PxJA7YIr3xxCq9C2LVo7+QKvwu7W0o1Q1OstFPLpeQnH4TesSmu0SqAR3/cnskOiCF/PfUNJARSohP3MT0T7huEVz5Wfp+jn0oh4APn5odiOxZvNNVtjzMrKDtiqYnZkLLfap3Pr7kSQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFlsnKJpgmXtv9obwSeLp4iCD3RVSyblf4WMq9Bu1BecT1GFophVV73VDbNS/VWKZIv2vlgYPdl/Q6mVXKsr1MBDxcCFxl6XdQ+ikJhmglwEphGicHRWwvJuvGZ/Jz5KYh3Bp3o7yp34/m1lDsd853mkODjj9hJ6HkKfc6DCy6oE</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
