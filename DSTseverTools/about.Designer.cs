@@ -57,7 +57,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(276, 154);
             this.label2.TabIndex = 3;
-            this.label2.Text = "饥荒联机版专用服务器开服工具\r\n\r\n\r\n本软件仅供学习参考使用\r\nbeta 1.10.5\r\n联系邮箱：v@vvwall.com";
+            this.label2.Text = "饥荒联机版专用服务器开服工具\r\n\r\n\r\n本软件仅供学习参考使用\r\nbeta 1.10.10\r\n联系邮箱：v@vvwall.com";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1

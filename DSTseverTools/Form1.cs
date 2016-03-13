@@ -19,7 +19,7 @@ namespace DSTseverTools
 
     public partial class Form1 : Form
     {
-        private string version = "8000";
+        private string version = "8006";
         private string consoletxt = "-console ";
         private string Setexe ="";//服务端程序
         private string config = "setting.ini";//配置文件

@@ -49,7 +49,7 @@
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(276, 26);
             this.title.TabIndex = 0;
-            this.title.Text = "当前版本beta V 1.10.5";
+            this.title.Text = "当前版本beta V 1.10.10";
             this.title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // linkLabel1
@@ -87,7 +87,7 @@
             this.time.Name = "time";
             this.time.Size = new System.Drawing.Size(111, 17);
             this.time.TabIndex = 6;
-            this.time.Text = "2016-1-29 23：23";
+            this.time.Text = "2016-2-17 11：23";
             // 
             // button1
             // 
@@ -112,7 +112,7 @@
             this.desbox.Location = new System.Drawing.Point(55, 0);
             this.desbox.Name = "desbox";
             this.desbox.Padding = new System.Windows.Forms.Padding(5);
-            this.desbox.Size = new System.Drawing.Size(390, 673);
+            this.desbox.Size = new System.Drawing.Size(390, 707);
             this.desbox.TabIndex = 3;
             this.desbox.Text = resources.GetString("desbox.Text");
             // 
